@@ -9,7 +9,8 @@ Repository: `mrlab-tsukuba/mexmfa_qmri2026`
 - `audit/operator_equivalence.json` was included in the release manifest before push.
 - No public visibility change or GitHub Release has been made.
 - **Licensing decision:** maintainers elected to provide no project `LICENSE` file, matching the previous ZS-SSL release. This does not grant unrestricted reuse rights.
-- **Remaining public-release blockers:** copyright-holder/institutional distribution authorization for the compiled code; final review of manuscript authorship, citation, ethics, and README wording.
+- **Distribution approval:** repository maintainer expressly approved distribution of the compiled package on 2026-11-13. Any additional institutional or third-party rights requirements remain the maintainer's responsibility.
+- **Next publication action:** merge the reviewed documentation PR; change GitHub visibility to Public; verify the published tree and record the final commit SHA in the manuscript.
 
 ## Historical pre-registration checklist
 
