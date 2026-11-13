@@ -17,6 +17,9 @@ redistributed image or binary archive.
 | scikit-image | 0.22.0 | BSD-3-Clause and component notices | metric calculation |
 | JupyterLab | 4.1.5 | BSD-3-Clause | notebook environment |
 
-This is a release checklist, not legal advice. The repository owner must
-confirm the licenses for the exact pinned distributions and choose the license
-for the MExMFA code before publication.
+This is a release checklist, not legal advice. The repository owner must confirm the licenses for the exact pinned
+distributions and ensure any applicable institutional and third-party distribution
+requirements are satisfied. The repository maintainer approved distribution
+of the compiled package on 2026-11-13. The project owner elected **not** to add a project `LICENSE`
+file, consistent with the prior repository; this does not override the
+third-party dependency license terms or grant unrestricted reuse rights.

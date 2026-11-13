@@ -33,7 +33,10 @@ The final synthetic result was NRMSE 0.1544, PSNR 14.9690 dB, and SSIM 0.9032 (m
 
 ## Public-content check
 
-The package contains no human data, original notebooks, external imaging formats, fitted maps, credentials, or source MRI paths. Only five transparent generation/launch/validation/audit scripts are `.py`; all algorithm modules are Python 3.11 `.pyc`. GitHub publication has not been performed.
+The package contains no human data, original notebooks, external imaging formats, fitted maps, credentials, or source MRI paths. Only five transparent generation/launch/validation/audit scripts are `.py`; all algorithm modules are Python 3.11 `.pyc`. The 34-file candidate was registered in a **private** GitHub repository on
+2026-11-13 (initial commit `2b8ddfee87cd0937c35402061c613d3cb0c43801`).
+No public distribution or GitHub Release has been performed. The numerical
+results above are synthetic functional tests, not manuscript results.
 
 ## Remaining scope limits
 

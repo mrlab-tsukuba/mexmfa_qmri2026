@@ -1,6 +1,9 @@
 # Public file manifest
 
-Repository name reserved for registration: `mexmfa_qmri2026`.
+Repository: `mrlab-tsukuba/mexmfa_qmri2026` (private registration completed
+on 2026-11-13; initial commit `2b8ddfee87cd0937c35402061c613d3cb0c43801`).
+The 34 entries listed below were included in that initial private commit.
+No public GitHub Release has been made.
 
 The following are the intended tracked release files.  `results/`, Python
 cache directories, notebook checkpoints, and every other file are excluded

@@ -1,8 +1,16 @@
 # MExMFA qMRI: reproducibility demonstration
 
-This is the public, synthetic-data demonstration package for the manuscript
+This repository provides a synthetic-data demonstration package for the manuscript
 **“Joint Multi-Echo and Multi-Flip-Angle Reconstruction for High-Resolution
-Quantitative MRI of Human Embryos.”** It follows the study workflow: 20 SPGR
+Quantitative MRI of Human Embryos.”**
+
+**Manuscript authors:** Yasuhiko Terada and Shigehito Yamada.
+**Status:** Manuscript in preparation for submission to *Tomography*.
+The repository maintainer approved distribution of the compiled package on
+2026-11-13. The repository will become publicly accessible after its GitHub
+visibility is changed from Private to Public.
+
+It follows the study workflow: 20 SPGR
 conditions (5 flip angles × 4 echo times) are reconstructed jointly, then a
 single joint SPGR--T2* fit produces **T1**, **T2***, and **M0** maps.
 
@@ -77,8 +85,31 @@ FS-reference checks. Complete reproduction of paper results requires
 non-public human-embryo MRI data, acquisition-specific masks, B1 maps, and
 the approved study configuration; those materials are not included.
 
+## Citation and data availability
+
+Please cite the MExMFA manuscript identified above when publication details
+become available. This demo builds on prior work on ZS-SSL reconstruction for
+human embryo MRI: Iwazaki, K.; Fujita, N.; Yamada, S.; Terada, Y.
+*Compressed Sensing Reconstruction with Zero-Shot Self-Supervised Learning
+for High-Resolution MRI of Human Embryos*, *Tomography* **2025**, 11, 88.
+DOI: 10.3390/tomography11080088.
+
+The repository supplies a compiled implementation and synthetic test data;
+it does **not** include the ethically restricted human embryo MRI data.
+The synthetic demo is not sufficient to reproduce all numerical results of
+the manuscript.
+
+## Project license
+
+This package intentionally does not include a project `LICENSE` file, in line
+with the earlier `zs_ssl_recon2025` distribution. Making the repository public
+does not itself grant permissions to reuse, modify, or redistribute the code;
+the applicable copyright rules remain in force. Third-party dependency
+licenses are described separately in `THIRD_PARTY_LICENSES.md`.
+
 ## Before publishing
 
 Run `scripts/verify_release.py` in Docker, inspect the generated report, and
-confirm authorship/licensing and ethics wording. Do not publish until the
-maintainers approve the content and the final `.pyc` build.
+confirm final authorship, citation and ethics wording. The repository
+maintainer approved code distribution on 2026-11-13; GitHub visibility
+must be changed separately to complete public release.
