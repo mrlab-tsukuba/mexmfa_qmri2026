@@ -1,9 +1,18 @@
 # GitHub registration preparation
 
-Planned repository name: `mexmfa_qmri2026`
+Repository: `mrlab-tsukuba/mexmfa_qmri2026`
 
-No Git repository, remote, commit, push, or GitHub repository has been
-created by this preparation step.
+## Registration outcome (2026-11-13)
+
+- A **private** repository was created and the 34 reviewed files were pushed to `main`.
+- Initial private commit: `2b8ddfee87cd0937c35402061c613d3cb0c43801` (`Initial private release candidate`).
+- `audit/operator_equivalence.json` was included in the release manifest before push.
+- No public visibility change or GitHub Release has been made.
+- **Public-release blockers:** copyright/distribution authorization for the compiled code; project license selection; final review of manuscript authorship, citation, ethics, and README wording.
+
+## Historical pre-registration checklist
+
+The following checklist documents the steps originally planned before private registration; repository creation and private push are now complete.
 
 Before creating the GitHub repository, the responsible maintainer must:
 
