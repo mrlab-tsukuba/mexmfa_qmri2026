@@ -51,7 +51,14 @@ blocker, not a runtime blocker.
 
 ## GitHub status
 
-The planned repository name is `mexmfa_qmri2026`. Registration steps are in
-`GITHUB_REGISTRATION_PREP.md`, and the exact intended release tree is in
-`PUBLIC_FILE_MANIFEST.md`. No Git repository, remote, commit, push, or GitHub
-publication was created.
+The initial technical audit was completed before GitHub registration. On
+2026-11-13, the reviewed 34-file release candidate was pushed to the **private**
+repository `mrlab-tsukuba/mexmfa_qmri2026`, branch `main`, at commit
+`2b8ddfee87cd0937c35402061c613d3cb0c43801`.
+
+The current repository includes `audit/operator_equivalence.json` and the
+matching entry in `PUBLIC_FILE_MANIFEST.md`. No public visibility change or
+GitHub Release has been made. Technical audit is complete for the documented
+synthetic CPU scope; copyright/distribution authorization and project license
+selection remain blockers for **public** release. See
+`GITHUB_REGISTRATION_PREP.md` for the updated registration status.
