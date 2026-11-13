@@ -1,0 +1,17 @@
+{
+  "python_magic_matches": true,
+  "unchanged_modules": [
+    "zsmri/wrappers_chunked_rec_eval.pyc",
+    "zsmri/np/resampler.pyc",
+    "zsmri/torch/dataset.pyc",
+    "zsmri/torch/loss.pyc",
+    "zsmri/torch/operators.pyc",
+    "zsmri/torch/system.pyc",
+    "zsmri/torch/utils.pyc",
+    "zsmri/torch/layers/cnn.pyc",
+    "zsmri/torch/models/unroll.pyc"
+  ],
+  "instruction_equivalent_modules": [],
+  "mismatches": [],
+  "intentional_exception": "zsmri/torch/layers/dc.pyc"
+}

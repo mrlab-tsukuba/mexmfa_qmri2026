@@ -1,0 +1,12 @@
+.git/
+.ipynb_checkpoints/
+__pycache__/
+**/__pycache__/
+results/
+audit/
+*.py
+!scripts/generate_synthetic_data.py
+!scripts/run_demo.py
+!scripts/verify_release.py
+!scripts/audit_provenance.py
+!scripts/audit_operators_equivalence.py

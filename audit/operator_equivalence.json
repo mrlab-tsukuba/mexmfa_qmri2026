@@ -1,0 +1,53 @@
+{
+  "metadata_differences": [],
+  "non_location_difference_fields": [],
+  "numerical": {
+    "dtype": "complex64",
+    "shape": {
+      "smaps": [
+        1,
+        2,
+        6,
+        6
+      ],
+      "masks": [
+        1,
+        3,
+        6,
+        6
+      ],
+      "image": [
+        1,
+        3,
+        6,
+        6
+      ]
+    },
+    "tolerance": {
+      "atol": 5e-06,
+      "rtol": 5e-06
+    },
+    "forward": {
+      "max_abs_error": 0.0,
+      "max_relative_error": 0.0
+    },
+    "adjoint": {
+      "max_abs_error": 0.0,
+      "max_relative_error": 0.0
+    },
+    "cg_data_consistency": {
+      "max_abs_error": 0.0,
+      "max_relative_error": 0.0
+    },
+    "adjointness_production": {
+      "max_abs_error": 2.384185791015625e-06,
+      "max_relative_error": 1.3113086629666082e-07
+    },
+    "adjointness_release": {
+      "max_abs_error": 2.384185791015625e-06,
+      "max_relative_error": 1.3113086629666082e-07
+    },
+    "pass": true
+  },
+  "conclusion": "equivalent"
+}
