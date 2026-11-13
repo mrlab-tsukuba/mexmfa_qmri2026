@@ -1,14 +1,14 @@
 # MExMFA qMRI: reproducibility demonstration
 
-This repository is a **pre-publication, private** synthetic-data demonstration
-package for the manuscript
+This repository provides a synthetic-data demonstration package for the manuscript
 **“Joint Multi-Echo and Multi-Flip-Angle Reconstruction for High-Resolution
 Quantitative MRI of Human Embryos.”**
 
 **Manuscript authors:** Yasuhiko Terada and Shigehito Yamada.
 **Status:** Manuscript in preparation for submission to *Tomography*.
-This package is not publicly released; distribution remains subject to
-authorization to distribute the compiled code and final documentation review.
+The repository maintainer approved distribution of the compiled package on
+2026-11-13. The repository will become publicly accessible after its GitHub
+visibility is changed from Private to Public.
 
 It follows the study workflow: 20 SPGR
 conditions (5 flip angles × 4 echo times) are reconstructed jointly, then a
@@ -110,5 +110,6 @@ licenses are described separately in `THIRD_PARTY_LICENSES.md`.
 ## Before publishing
 
 Run `scripts/verify_release.py` in Docker, inspect the generated report, and
-confirm code-distribution authorization, authorship and ethics wording. Do not publish until the
-maintainers approve the content and the final `.pyc` build.
+confirm final authorship, citation and ethics wording. The repository
+maintainer approved code distribution on 2026-11-13; GitHub visibility
+must be changed separately to complete public release.
