@@ -46,10 +46,9 @@ route.
 
 The direct dependency review is in `THIRD_PARTY_LICENSES.md`. The maintainer chose to publish without adding a project `LICENSE` file,
 following the previous ZS-SSL package. This decision is not an unrestricted
-reuse license; ordinary copyright rules apply. Authorization from the code
-rights holder(s) to publicly distribute MExMFA bytecode must still be confirmed.
-The missing distribution authorization is a public-release blocker, not a
-runtime blocker.
+reuse license; ordinary copyright rules apply. The repository maintainer explicitly approved public distribution of the
+compiled MExMFA package on 2026-11-13. Any additional institutional or
+third-party rights requirements remain the maintainer's responsibility.
 
 ## GitHub status
 
@@ -61,6 +60,7 @@ repository `mrlab-tsukuba/mexmfa_qmri2026`, branch `main`, at commit
 The current repository includes `audit/operator_equivalence.json` and the
 matching entry in `PUBLIC_FILE_MANIFEST.md`. No public visibility change or
 GitHub Release has been made. Technical audit is complete for the documented
-synthetic CPU scope; copyright-holder distribution authorization remains a blocker for
-**public** release; absence of a project LICENSE is an intentional decision. See
+synthetic CPU scope; the repository maintainer's distribution approval has been recorded.
+GitHub visibility remains Private until changed via repository settings;
+absence of a project LICENSE is an intentional decision. See
 `GITHUB_REGISTRATION_PREP.md` for the updated registration status.
