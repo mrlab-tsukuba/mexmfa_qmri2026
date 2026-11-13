@@ -8,7 +8,8 @@ Repository: `mrlab-tsukuba/mexmfa_qmri2026`
 - Initial private commit: `2b8ddfee87cd0937c35402061c613d3cb0c43801` (`Initial private release candidate`).
 - `audit/operator_equivalence.json` was included in the release manifest before push.
 - No public visibility change or GitHub Release has been made.
-- **Public-release blockers:** copyright/distribution authorization for the compiled code; project license selection; final review of manuscript authorship, citation, ethics, and README wording.
+- **Licensing decision:** maintainers elected to provide no project `LICENSE` file, matching the previous ZS-SSL release. This does not grant unrestricted reuse rights.
+- **Remaining public-release blockers:** copyright-holder/institutional distribution authorization for the compiled code; final review of manuscript authorship, citation, ethics, and README wording.
 
 ## Historical pre-registration checklist
 
@@ -18,7 +19,7 @@ Before creating the GitHub repository, the responsible maintainer must:
 
 1. Approve the release manifest and provenance audit.
 2. Obtain institutional approval to distribute the bytecode implementation.
-3. Select and add a project `LICENSE` after confirming copyright ownership.
+3. Decide on a project license after confirming copyright ownership (subsequent decision: no project `LICENSE` will be added).
 4. Review the manuscript title, author list, ethics wording, and citation.
 5. Create an empty GitHub repository named `mexmfa_qmri2026` without adding a
    GitHub-generated README, license, or `.gitignore`.
