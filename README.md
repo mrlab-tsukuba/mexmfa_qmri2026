@@ -1,8 +1,16 @@
 # MExMFA qMRI: reproducibility demonstration
 
-This is the public, synthetic-data demonstration package for the manuscript
+This repository is a **pre-publication, private** synthetic-data demonstration
+package for the manuscript
 **“Joint Multi-Echo and Multi-Flip-Angle Reconstruction for High-Resolution
-Quantitative MRI of Human Embryos.”** It follows the study workflow: 20 SPGR
+Quantitative MRI of Human Embryos.”**
+
+**Manuscript authors:** Yasuhiko Terada and Shigehito Yamada.
+**Status:** Manuscript in preparation for submission to *Tomography*.
+This package is not publicly released; distribution remains subject to
+approval of code ownership, permissions, and project licensing.
+
+It follows the study workflow: 20 SPGR
 conditions (5 flip angles × 4 echo times) are reconstructed jointly, then a
 single joint SPGR--T2* fit produces **T1**, **T2***, and **M0** maps.
 
@@ -76,6 +84,20 @@ two ZS-SSL train/validation epochs, output-map fitting, and numerical
 FS-reference checks. Complete reproduction of paper results requires
 non-public human-embryo MRI data, acquisition-specific masks, B1 maps, and
 the approved study configuration; those materials are not included.
+
+## Citation and data availability
+
+Please cite the MExMFA manuscript identified above when publication details
+become available. This demo builds on prior work on ZS-SSL reconstruction for
+human embryo MRI: Iwazaki, K.; Fujita, N.; Yamada, S.; Terada, Y.
+*Compressed Sensing Reconstruction with Zero-Shot Self-Supervised Learning
+for High-Resolution MRI of Human Embryos*, *Tomography* **2025**, 11, 88.
+DOI: 10.3390/tomography11080088.
+
+The repository supplies a compiled implementation and synthetic test data;
+it does **not** include the ethically restricted human embryo MRI data.
+The synthetic demo is not sufficient to reproduce all numerical results of
+the manuscript.
 
 ## Before publishing
 
