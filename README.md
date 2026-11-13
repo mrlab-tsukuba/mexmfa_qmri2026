@@ -8,7 +8,7 @@ Quantitative MRI of Human Embryos.”**
 **Manuscript authors:** Yasuhiko Terada and Shigehito Yamada.
 **Status:** Manuscript in preparation for submission to *Tomography*.
 This package is not publicly released; distribution remains subject to
-approval of code ownership, permissions, and project licensing.
+authorization to distribute the compiled code and final documentation review.
 
 It follows the study workflow: 20 SPGR
 conditions (5 flip angles × 4 echo times) are reconstructed jointly, then a
@@ -99,8 +99,16 @@ it does **not** include the ethically restricted human embryo MRI data.
 The synthetic demo is not sufficient to reproduce all numerical results of
 the manuscript.
 
+## Project license
+
+This package intentionally does not include a project `LICENSE` file, in line
+with the earlier `zs_ssl_recon2025` distribution. Making the repository public
+does not itself grant permissions to reuse, modify, or redistribute the code;
+the applicable copyright rules remain in force. Third-party dependency
+licenses are described separately in `THIRD_PARTY_LICENSES.md`.
+
 ## Before publishing
 
 Run `scripts/verify_release.py` in Docker, inspect the generated report, and
-confirm authorship/licensing and ethics wording. Do not publish until the
+confirm code-distribution authorization, authorship and ethics wording. Do not publish until the
 maintainers approve the content and the final `.pyc` build.
